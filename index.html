@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CSE 110 Lab 2</title>
+        <link rel="shortcut icon" type="image/jpg" href="./favicon.jpg"/>
+    </head>
+
+
+    <body>
+        <header>
+          <img src="clouds.gif" alt="clouds">
+            <h1>Ethan Tan</h1>
+            <p><code>Hello World!</code></p>
+            <hr />
+            <br />
+        </header>
+        <main>
+            <h2>Journral Entries</h2>
+            <hr>
+            <section>
+                <h3>2 Days Ago Entry</h3>
+                <p>
+                  Two days ago what I did was... Some <em>particular highlights</em> of the day in no specific order were:
+                </p>
+                <ul>
+                  <li>Eating ice-cream</li>
+                  <li><strong>Getting my second COVID vaccine shot</strong></li>
+                  <li>Taking a <b>fat </b>nap</li>
+                </ul>
+            </section>
+            <hr>
+
+            <section>
+                <h3>Yesterday Entry</h3>
+                <p>Some particiular highlights of this day in <i>chronological order</i> were:</p>
+                <ol>
+                  <li>Eating lunch at Shake Shack</li>
+                  <li>Checking out an apartment with my friends for next year</li>
+                  <li>Eating Raising Cane's for dinner</li>
+                </ol>
+            </section>
+            <hr>
+            <section>
+                <h3>Today</h3>
+                <p>I don't feel like listing what I did today. But I guess what I did was take a CSE110 quiz and finish the 101 quiz that was due tonight</p>
+                <p>here's the song I'm listening to right now...</p>
+                <audio controls>
+                  <source src="song.mp3" type="audio/mp3">
+                </audio>
+                <p>here's one of my favorite youtube videos</p>
+                <video controls>
+                  <source src="yoooooo.mp4" type="video/mp4">
+                </video>
+            </section>
+            <hr>
+            <details>
+              <summary>My Hobbies and Interests</summary>
+              <p>really its not that much.. I like listening to Brazilian Jazz, playing badminton, taking photos, and eating good food</p>
+            </details>
+        </main>
+
+        <form>
+            <fieldset>
+                <legend>Journal Form</legend>
+                <label for="fname"> Journal Title:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname"> Journal Entry:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            </fieldset>
+         </form>
+         <h3>How you feeling so far? can you leave a one word review in this text area?</h3>
+         <textarea id="review"></textarea><br>
+         <button type="button">Click here to submit the review! (But not really) </button>
+         <br><br>
+         <h3>Choose a color</h3>
+         <select>
+            <optgroup label="Primary Colors" id="optgroup">
+                <option>Blue</option>
+                <option>Red</option>
+                <option>Yellow</option>
+            </optgroup>
+         </select>
+         <br>
+         <h3>Here is another way to do the drop down for colors using datalist</h3>
+         <label for="chooseAgain">Choose a color (again)</label>
+         <input list="colorzz" name="colorz" id="chooseAgain">
+         <datalist id="colorzz">
+            <option value="Blue">
+            <option value="Yellow">
+            <option value="Red">
+         </datalist>
+         <br>
+
+        <footer>
+            <h3>Reach me at: </h3>
+            <nav>
+                <a href="https://www.linkedin.com/in/ethan-tan/">LinkedIn</a> |
+                <a href="https://github.com/aazurill">Github</a> |
+                <a href="mailto:ethanyr@gmail.com">Email</a>
+            </nav>
+        </footer>
+    </body>
+</html>
