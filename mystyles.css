@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: skyblue;
+    color:black;
+  }
+ }
+* {
+  color:white
+}
+/* color of background dark grey and text as white */
+body {
+  background-color: #222222;
+  color:white;
+  margin-left: 3em;
+  margin: top 3em;
+  margin-right: 3em;
+  margin: bottom 3em;
+  position: static;
+}
+
+#journal {
+  display:block;
+  height: 2.5em;
+  width: 6em;
+  border-style: groove;
+  border-color:coral;
+  border-width: 10px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  text-decoration: cornflowerblue underline;
+ }
+
+ button:hover {
+   color:blue;
+ }
+ a:active {
+   color:skyblue;
+ }
+.entry {
+  min-width: 20em;
+  max-width: 20em;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: top 30px;
+  padding: bottom 30px;
+}
+:active {
+  color:thistle;
+}
+footer {
+  display: inline-block;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+  flex-shrink: 3;
+}
+a[href*="linked"] {
+  color:yellowgreen;
+}
+
+.gallery {
+  display: grid;
+  grid-template-areas: "footer";
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 25% 100px auto;
+}
+h1, h3{
+  color:tomato;
+}
+section p {
+  color:aqua;
+}
+
+ul > li {
+  color:aquamarine;
+}
+
+form ~ h3 {
+  color:brown;
+}
+li + li {
+  color:chartreuse;
+}
+h3.feels {
+  color:crimson;
+}
