@@ -4,21 +4,30 @@
         <meta charset="UTF-8" />
         <title>CSE 110 Lab 2</title>
         <link rel="shortcut icon" type="image/jpg" href="./favicon.jpg"/>
+        <link rel="stylesheet" href="mystyles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
     </head>
 
 
     <body>
+          <style>
+          code {
+            color: hsl(76, 100%, 50%)
+          }
+        </style>
         <header>
-          <img src="clouds.gif" alt="clouds">
-            <h1>Ethan Tan</h1>
-            <p><code>Hello World!</code></p>
+   >
+            <h1 style='color: navajowhite; font-family: Antonio'>Ethan Tan</h1>
+            <p style="color: rgb(245, 74, 66)">Goodbye and <code>Hello World!</code></p>
             <hr />
             <br />
         </header>
         <main>
-            <h2>Journral Entries</h2>
+            <h2 id="journal">Journal Entries</h2>
             <hr>
-            <section>
+            <section class="container">
+            <section class="entry">
                 <h3>2 Days Ago Entry</h3>
                 <p>
                   Two days ago what I did was... Some <em>particular highlights</em> of the day in no specific order were:
@@ -31,7 +40,7 @@
             </section>
             <hr>
 
-            <section>
+            <section class="entry">
                 <h3>Yesterday Entry</h3>
                 <p>Some particiular highlights of this day in <i>chronological order</i> were:</p>
                 <ol>
@@ -41,18 +50,20 @@
                 </ol>
             </section>
             <hr>
-            <section>
+            <section class="entry">
                 <h3>Today</h3>
                 <p>I don't feel like listing what I did today. But I guess what I did was take a CSE110 quiz and finish the 101 quiz that was due tonight</p>
                 <p>here's the song I'm listening to right now...</p>
                 <audio controls>
                   <source src="song.mp3" type="audio/mp3">
                 </audio>
-                <p>here's one of my favorite youtube videos</p>
+
+            </section>
+            </section>
+            <p>here's one of my favorite youtube videos</p>
                 <video controls>
                   <source src="yoooooo.mp4" type="video/mp4">
                 </video>
-            </section>
             <hr>
             <details>
               <summary>My Hobbies and Interests</summary>
@@ -69,7 +80,7 @@
                 <input type="text" id="lname" name="lname"><br>
             </fieldset>
          </form>
-         <h3>How you feeling so far? can you leave a one word review in this text area?</h3>
+         <h3 class="feels">How you feeling so far? can you leave a one word review in this text area?</h3>
          <textarea id="review"></textarea><br>
          <button type="button">Click here to submit the review! (But not really) </button>
          <br><br>
@@ -91,13 +102,17 @@
             <option value="Red">
          </datalist>
          <br>
-
+          <section class="gallery">
+            <img src="clouds.gif" alt="clouds">
+            <img src="favicon.jpg" alt="proiflepic">
+            <img src="meme.jpg" alt="meme">
+          </section>
         <footer>
             <h3>Reach me at: </h3>
             <nav>
-                <a href="https://www.linkedin.com/in/ethan-tan/">LinkedIn</a> |
-                <a href="https://github.com/aazurill">Github</a> |
-                <a href="mailto:ethanyr@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/ethan-tan/">LinkedIn</a>
+
+                <a href="https://github.com/aazurill">Github</a>
             </nav>
         </footer>
     </body>
